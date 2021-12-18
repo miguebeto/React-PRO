@@ -1,10 +1,10 @@
-import { Navigation } from "./Navigation";
+import { Navigation } from "./routes/Navigation";
 import "./styles.css";
 
+//1
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello MigueDev</h1>
       <Navigation />
     </div>
   );
